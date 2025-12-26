@@ -72,9 +72,10 @@ flowchart TD
     E --> F[Save Voice Profile JSON]
     F --> G[Training Complete]
     G --> H[Start Synthesis]
-    H --> I[Generate Base Audio (Piper)]
-    I --> J[Apply Personalization: Pitch, Speed, Pauses, Emotion]
+    H --> I[Generate Base Audio Using Piper]
+    I --> J[Apply Personalization Pitch Speed Pauses Emotion]
     J --> K[Save Final Output]
+
 
 ```
 
